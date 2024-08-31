@@ -103,3 +103,5 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+__pycache__/vector_store.cpython-312.pyc
+__pycache__/main.cpython-312.pyc
