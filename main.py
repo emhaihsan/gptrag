@@ -166,3 +166,11 @@ async def token_usage(
         raise HTTPException(status_code=400, detail="Invalid token type")
     tokens_used = vector_store.query_token_usage(token_type, start_date, end_date)
     return {"token_type": token_type, "tokens_used": tokens_used, "start_date": start_date, "end_date": end_date}
+
+@app.post("/clear-data/")
+async def clear_all_data():
+    try:
+        vector_store.clear_all_data()
+        return {"message": "All data has been deleted"}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))

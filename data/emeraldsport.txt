@@ -1,0 +1,117 @@
+Company Profile: Emerald Sports
+
+Nama Perusahaan:  
+Emerald Sports
+
+Alamat Perusahaan:  
+Jalan Atletik No. 101, Jakarta Selatan, DKI Jakarta, Indonesia 12430
+
+Nomor Telepon:  
++62 21 9876 5432
+
+Email:  
+support@emeraldsports.com
+
+Produk yang Dijual:
+1. Sepatu Lari "Emerald SpeedRunner X"
+2. Matras Yoga "Emerald FlexiMat Pro"
+3. Bola Basket "Emerald ProBall 7"
+4. Raket Tenis "Emerald SmashMaster 3000"
+5. Sepeda Statis "Emerald CycleFit Home"
+6. Dumbbell Set "Emerald MuscleBuild 20kg"
+7. Treadmill "Emerald CardioMax T1000"
+8. Sarung Tangan Tinju "Emerald PunchForce Pro"
+9. Jam Tangan Olahraga "Emerald FitTrack S5"
+10. Peralatan Fitness Band "Emerald FlexBand Set"
+
+Spesifikasi Produk:
+
+1. Sepatu Lari "Emerald SpeedRunner X"
+   Harga: Rp 1.200.000,-
+   Penjelasan: Sepatu lari ringan dengan teknologi bantalan terbaru untuk kenyamanan dan performa terbaik.
+   Spesifikasi:
+     - Bahan: Mesh Upper, Sol Karet
+     - Ukuran: 38-45
+     - Warna: Hitam, Biru, Merah
+   Stok: 150 pasang
+
+2. Matras Yoga "Emerald FlexiMat Pro"
+   Harga: Rp 500.000,-
+   Penjelasan: Matras yoga berkualitas tinggi yang dirancang untuk kenyamanan dan grip terbaik selama latihan.
+   Spesifikasi:
+     - Bahan: TPE Anti-Slip
+     - Ukuran: 183cm x 61cm x 6mm
+     - Warna: Hijau, Ungu, Abu-abu
+   Stok: 300 unit
+
+3. Bola Basket "Emerald ProBall 7"
+   Harga: Rp 350.000,-
+   Penjelasan: Bola basket standar internasional dengan daya tahan tinggi dan grip optimal.
+   Spesifikasi:
+     - Ukuran: 7 (Standard)
+     - Bahan: Kulit Sintetis Premium
+     - Warna: Coklat Klasik
+   Stok: 200 unit
+
+4. Raket Tenis "Emerald SmashMaster 3000"
+   Harga: Rp 2.000.000,-
+   Penjelasan: Raket tenis ringan dengan teknologi anti-getaran untuk kontrol dan kekuatan pukulan yang maksimal.
+   Spesifikasi:
+     - Bahan: Graphite
+     - Berat: 300 gram
+     - Ukuran Kepala: 100 sq.in
+   Stok: 80 unit
+
+5. Sepeda Statis "Emerald CycleFit Home"
+   Harga: Rp 4.500.000,-
+   Penjelasan: Sepeda statis untuk latihan kardio di rumah dengan berbagai pengaturan resistensi.
+   Spesifikasi:
+     - Berat Maksimal Pengguna: 120 kg
+     - Fitur: Monitor Digital, Pengaturan Resistensi
+     - Dimensi: 120cm x 60cm x 150cm
+   Stok: 50 unit
+
+6. Dumbbell Set "Emerald MuscleBuild 20kg"
+   Harga: Rp 1.000.000,-
+   Penjelasan: Set dumbbell dengan bobot yang dapat disesuaikan, ideal untuk latihan kekuatan di rumah.
+   Spesifikasi:
+     - Berat Total: 20 kg (dengan berbagai variasi)
+     - Material: Besi, Pegangan Berlapis Karet
+     - Fitur: Pengunci Aman
+   Stok: 100 set
+
+7. Treadmill "Emerald CardioMax T1000"
+   Harga: Rp 10.000.000,-
+   Penjelasan: Treadmill berkualitas tinggi dengan fitur program latihan dan monitor detak jantung.
+   Spesifikasi:
+     - Kecepatan Maksimal: 20 km/jam
+     - Fitur: Layar LCD, Lipat, Program Latihan
+     - Dimensi: 180cm x 80cm x 140cm
+   Stok: 30 unit
+
+8. Sarung Tangan Tinju "Emerald PunchForce Pro"
+   Harga: Rp 600.000,-
+   Penjelasan: Sarung tangan tinju dengan bantalan tebal untuk melindungi tangan dan memberikan kekuatan pukulan yang maksimal.
+   Spesifikasi:
+     - Ukuran: 12oz, 14oz, 16oz
+     - Bahan: Kulit Sintetis, Busa EVA
+     - Warna: Hitam, Merah
+   Stok: 150 pasang
+
+9. Jam Tangan Olahraga "Emerald FitTrack S5"
+   Harga: Rp 2.000.000,-
+   Penjelasan: Jam tangan olahraga dengan fitur pemantau kesehatan seperti detak jantung, GPS, dan pelacak langkah.
+   Spesifikasi:
+     - Layar: AMOLED 1.4"
+     - Konektivitas: Bluetooth, GPS
+     - Daya Tahan Baterai: Hingga 7 hari
+   Stok: 200 unit
+
+10. Peralatan Fitness Band "Emerald FlexBand Set"
+   Harga: Rp 300.000,-
+   Penjelasan: Set fitness band dengan berbagai tingkat resistensi, ideal untuk latihan kekuatan dan peregangan.
+   Spesifikasi:
+     - Material: Lateks Elastis
+     - Tingkat Resistensi: 5 Level (Ringan hingga Berat)
+     - Aksesoris: Pegangan, Door Anchor
+   Stok: 400 set

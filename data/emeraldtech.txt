@@ -1,0 +1,123 @@
+Company Profile: Emerald Tech
+
+Nama Perusahaan:  
+Emerald Tech
+
+Alamat Perusahaan:  
+Jalan Teknologi No. 789, Jakarta Selatan, DKI Jakarta, Indonesia 12430
+
+Nomor Telepon:  
++62 21 3456 7890
+
+Email:  
+sales@emeraldtech.com
+
+Produk yang Dijual:
+1. Laptop "Emerald Pro X15"
+2. Desktop "Emerald PowerStation Z"
+3. Monitor "Emerald UltraWide 27"
+4. Printer "Emerald PrintMaster 5000"
+5. Mouse Gaming "Emerald SwiftClick G1"
+6. Keyboard Mechanical "Emerald TypeMax K10"
+7. Router "Emerald NetPro R2000"
+8. SSD "Emerald SpeedDrive 1TB"
+9. Gaming Headset "Emerald SoundBlast H7"
+10. Webcam "Emerald ClearView C1080"
+
+Spesifikasi Produk:
+
+1. Laptop "Emerald Pro X15"
+   Harga: Rp 15.000.000,-
+   Penjelasan: Laptop performa tinggi untuk profesional dengan prosesor terbaru dan desain elegan.
+   Spesifikasi:
+     - Prosesor: Intel Core i7-12700H
+     - RAM: 16GB DDR4
+     - Penyimpanan: 512GB SSD
+     - Layar: 15.6" Full HD
+     - GPU: NVIDIA GeForce RTX 3050
+     - Sistem Operasi: Windows 11
+   Stok: 50 unit
+
+2. Desktop "Emerald PowerStation Z"
+   Harga: Rp 20.000.000,-
+   Penjelasan: Desktop untuk gaming dan rendering grafis dengan kemampuan overclocking dan pendingin cair.
+   Spesifikasi:
+     - Prosesor: AMD Ryzen 9 5900X
+     - RAM: 32GB DDR4
+     - Penyimpanan: 1TB NVMe SSD + 2TB HDD
+     - GPU: NVIDIA GeForce RTX 3080
+     - Sistem Operasi: Windows 11
+   Stok: 30 unit
+
+3. Monitor "Emerald UltraWide 27"
+   Harga: Rp 5.000.000,-
+   Penjelasan: Monitor ultrawide 27 inci dengan resolusi 2K untuk pengalaman multimedia yang mendalam.
+   Spesifikasi:
+     - Ukuran Layar: 27" UltraWide
+     - Resolusi: 2560 x 1440 (2K)
+     - Refresh Rate: 144Hz
+     - Teknologi Panel: IPS
+   Stok: 100 unit
+
+4. Printer "Emerald PrintMaster 5000"
+   Harga: Rp 3.000.000,-
+   Penjelasan: Printer multifungsi dengan kemampuan cetak, scan, dan fotokopi yang efisien untuk kebutuhan kantor.
+   Spesifikasi:
+     - Jenis: Inkjet Multifungsi
+     - Resolusi Cetak: 4800 x 1200 dpi
+     - Konektivitas: USB, Wi-Fi
+   Stok: 70 unit
+
+5. Mouse Gaming "Emerald SwiftClick G1"
+   Harga: Rp 700.000,-
+   Penjelasan: Mouse gaming dengan desain ergonomis, sensor optik presisi tinggi, dan lampu RGB.
+   Spesifikasi:
+     - DPI: 16,000
+     - Tombol: 6 Programmable
+     - Konektivitas: Kabel USB
+   Stok: 200 unit
+
+6. Keyboard Mechanical "Emerald TypeMax K10"
+   Harga: Rp 1.200.000,-
+   Penjelasan: Keyboard mekanis dengan switch biru yang menawarkan feedback tactile dan pengalaman mengetik yang nyaman.
+   Spesifikasi:
+     - Switch: Blue Mechanical
+     - Backlight: RGB
+     - Konektivitas: Kabel USB
+   Stok: 150 unit
+
+7. Router "Emerald NetPro R2000"
+   Harga: Rp 1.500.000,-
+   Penjelasan: Router dual-band dengan kecepatan tinggi hingga 2.000 Mbps, ideal untuk streaming dan gaming online.
+   Spesifikasi:
+     - Kecepatan: 2.4GHz (600 Mbps) + 5GHz (1400 Mbps)
+     - Konektivitas: Gigabit Ethernet, Wi-Fi
+     - Teknologi: MU-MIMO
+   Stok: 100 unit
+
+8. SSD "Emerald SpeedDrive 1TB"
+   Harga: Rp 2.000.000,-
+   Penjelasan: SSD dengan kecepatan tinggi dan daya tahan tinggi untuk meningkatkan performa komputer Anda.
+   Spesifikasi:
+     - Kapasitas: 1TB
+     - Tipe: NVMe PCIe Gen3 x4
+     - Kecepatan Baca/Tulis: 3500/3000 MB/s
+   Stok: 200 unit
+
+9. Gaming Headset "Emerald SoundBlast H7"
+   Harga: Rp 1.000.000,-
+   Penjelasan: Headset gaming dengan surround sound 7.1 dan mikrofon noise-cancelling untuk pengalaman bermain yang imersif.
+   Spesifikasi:
+     - Audio: 7.1 Surround Sound
+     - Konektivitas: Kabel 3.5mm
+     - Mikrofon: Noise-Cancelling
+   Stok: 120 unit
+
+10. Webcam "Emerald ClearView C1080"
+   Harga: Rp 800.000,-
+   Penjelasan: Webcam Full HD 1080p dengan autofokus dan mikrofon stereo untuk video call berkualitas tinggi.
+   Spesifikasi:
+     - Resolusi: 1080p Full HD
+     - Mikrofon: Stereo
+     - Konektivitas: USB
+   Stok: 250 unit

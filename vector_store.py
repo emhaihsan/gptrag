@@ -131,3 +131,14 @@ class VectorStore:
         """, (token_type, start_date, end_date))
         total_tokens_used = self.cursor.fetchone()[0]
         return total_tokens_used or 0
+    
+    def clear_all_data(self):
+        try:
+            self.cursor.execute("""
+                TRUNCATE TABLE knowledge, chat_sessions, chat_history, token_counter RESTART IDENTITY CASCADE;
+            """)
+            self.connection.commit()
+            print("Semua data berhasil dihapus.")
+        except Exception as e:
+            self.connection.rollback()
+            print(f"Terjadi kesalahan saat menghapus data: {e}")

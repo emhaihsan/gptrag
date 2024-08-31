@@ -1,0 +1,126 @@
+Company Profile: Emerald Books
+
+Nama Perusahaan:  
+Emerald Books
+
+Alamat Perusahaan:  
+Jalan Literasi No. 456, Jakarta Selatan, DKI Jakarta, Indonesia 12430
+
+Nomor Telepon:  
++62 21 8765 4321
+
+Email:  
+info@emeraldbooks.com
+
+Produk yang Dijual:
+1. Novel "Kisah Sang Pejuang"
+2. Buku "Panduan Belajar Pemrograman Python"
+3. Majalah "Traveler's Journal"
+4. Ensiklopedia "Dunia Flora dan Fauna"
+5. Novel "Cinta di Ujung Senja"
+6. Buku "Mengelola Keuangan Pribadi"
+7. Buku Anak "Petualangan Si Kancil"
+8. Buku "Sejarah Peradaban Dunia"
+9. Komik "Pahlawan Nusantara"
+10. Buku "Teknik Dasar Fotografi Digital"
+
+Spesifikasi Produk:
+
+1. Novel "Kisah Sang Pejuang"
+   Harga: Rp 100.000,-
+   Penjelasan: Sebuah novel inspiratif yang mengisahkan perjuangan seorang pemuda dalam menghadapi tantangan hidup di pedalaman.
+   Spesifikasi:
+     - Penulis: A. Suryanto
+     - Penerbit: Pustaka Citra
+     - Jumlah Halaman: 320 halaman
+     - ISBN: 978-602-1234-567-8
+   Stok: 150 eksemplar
+
+2. Buku "Panduan Belajar Pemrograman Python"
+   Harga: Rp 150.000,-
+   Penjelasan: Buku panduan lengkap untuk pemula dalam mempelajari bahasa pemrograman Python, dilengkapi dengan contoh kasus praktis.
+   Spesifikasi:
+     - Penulis: Budi Santoso
+     - Penerbit: Informatika Press
+     - Jumlah Halaman: 450 halaman
+     - ISBN: 978-602-9876-543-2
+   Stok: 200 eksemplar
+
+3. Majalah "Traveler's Journal"
+   Harga: Rp 50.000,-
+   Penjelasan: Majalah bulanan yang membahas destinasi wisata, tips perjalanan, dan pengalaman traveler dari seluruh dunia.
+   Spesifikasi:
+     - Edisi: Agustus 2024
+     - Jumlah Halaman: 80 halaman
+     - ISSN: 0216-1234
+   Stok: 500 eksemplar
+
+4. Ensiklopedia "Dunia Flora dan Fauna"
+   Harga: Rp 300.000,-
+   Penjelasan: Ensiklopedia lengkap tentang flora dan fauna di seluruh dunia, dengan ilustrasi dan informasi yang mendalam.
+   Spesifikasi:
+     - Penulis: Dr. Andi Wijaya
+     - Penerbit: Alam Raya
+     - Jumlah Halaman: 800 halaman
+     - ISBN: 978-602-7654-321-9
+   Stok: 50 eksemplar
+
+5. Novel "Cinta di Ujung Senja"
+   Harga: Rp 120.000,-
+   Penjelasan: Kisah cinta yang penuh emosi dan liku-liku kehidupan di sebuah desa pesisir.
+   Spesifikasi:
+     - Penulis: Rina Rahayu
+     - Penerbit: Cerita Indah
+     - Jumlah Halaman: 290 halaman
+     - ISBN: 978-602-4567-891-0
+   Stok: 100 eksemplar
+
+6. Buku "Mengelola Keuangan Pribadi"
+   Harga: Rp 130.000,-
+   Penjelasan: Buku panduan untuk mengatur keuangan pribadi dengan tips praktis dan contoh kasus.
+   Spesifikasi:
+     - Penulis: Ahmad Hidayat
+     - Penerbit: Ekonomi Cerdas
+     - Jumlah Halaman: 320 halaman
+     - ISBN: 978-602-3456-789-1
+   Stok: 120 eksemplar
+
+7. Buku Anak "Petualangan Si Kancil"
+   Harga: Rp 80.000,-
+   Penjelasan: Cerita anak-anak yang mengajarkan nilai-nilai kejujuran dan keberanian melalui petualangan si Kancil.
+   Spesifikasi:
+     - Penulis: Yuni Astuti
+     - Penerbit: Dunia Anak
+     - Jumlah Halaman: 100 halaman
+     - ISBN: 978-602-9876-543-0
+   Stok: 300 eksemplar
+
+8. Buku "Sejarah Peradaban Dunia"
+   Harga: Rp 200.000,-
+   Penjelasan: Buku yang mengulas perkembangan sejarah peradaban dunia dari zaman kuno hingga modern.
+   Spesifikasi:
+     - Penulis: Dr. Satria Wibawa
+     - Penerbit: Pustaka Sejarah
+     - Jumlah Halaman: 600 halaman
+     - ISBN: 978-602-1111-222-3
+   Stok: 75 eksemplar
+
+9. Komik "Pahlawan Nusantara"
+   Harga: Rp 60.000,-
+   Penjelasan: Komik yang menceritakan kisah pahlawan-pahlawan Indonesia dengan ilustrasi menarik.
+   Spesifikasi:
+     - Penulis: Dimas Pratama
+     - Penerbit: Komik Nusantara
+     - Jumlah Halaman: 150 halaman
+     - ISBN: 978-602-4444-555-6
+   Stok: 200 eksemplar
+
+10. Buku "Teknik Dasar Fotografi Digital"
+   Harga: Rp 180.000,-
+   Penjelasan: Buku panduan lengkap untuk belajar fotografi digital bagi pemula, dilengkapi dengan teknik dasar dan trik.
+   Spesifikasi:
+     - Penulis: Asep Setiawan
+     - Penerbit: Fotografi Pro
+     - Jumlah Halaman: 350 halaman
+     - ISBN: 978-602-3333-777-9
+   Stok: 100 eksemplar
