@@ -1,0 +1,67 @@
+Berikut adalah template untuk company profile *Emerald Mable*:
+
+---
+
+### **Company Profile: Emerald Mable**
+
+**Nama Perusahaan:**  
+Emerald Mable
+
+**Alamat Perusahaan:**  
+Jalan Pelita No. 123, Jakarta Selatan, DKI Jakarta, Indonesia 12430
+
+**Nomor Telepon:**  
++62 21 1234 5678
+
+**Email:**  
+contact@emeraldmable.com
+
+
+
+### **Produk yang Dijual:**
+1. **Emerald Luxury Sofa**
+2. **Emerald Classic Dining Table**
+3. **Emerald Modern Office Chair**
+4. **Emerald Contemporary Bed Frame**
+
+### **Spesifikasi produk:**
+
+1. **Emerald Luxury Sofa**
+   - **Harga:** Rp 25.000.000,-
+   - **Penjelasan:** Sofa mewah yang dirancang dengan material premium, memberikan kenyamanan dan keanggunan di ruang tamu Anda.
+   - **Spesifikasi:**
+     - Material: Kulit asli
+     - Ukuran: 3-seater, 240cm x 90cm x 85cm
+     - Warna: Hitam, Coklat Tua
+   - **Stok:** 20 unit
+
+2. **Emerald Classic Dining Table**
+   - **Harga:** Rp 15.000.000,-
+   - **Penjelasan:** Meja makan klasik dengan ukiran tangan yang elegan, cocok untuk ruang makan bergaya tradisional.
+   - **Spesifikasi:**
+     - Material: Kayu Jati Solid
+     - Ukuran: 180cm x 90cm x 75cm
+     - Warna: Coklat Muda, Coklat Tua
+   - **Stok:** 10 unit
+
+3. **Emerald Modern Office Chair**
+   - **Harga:** Rp 5.000.000,-
+   - **Penjelasan:** Kursi kantor ergonomis dengan desain modern, mendukung kenyamanan dan produktivitas kerja.
+   - **Spesifikasi:**
+     - Material: Kulit Sintetis, Aluminium
+     - Ukuran: 120cm x 60cm x 60cm
+     - Warna: Hitam, Putih
+   - **Stok:** 50 unit
+
+4. **Emerald Contemporary Bed Frame**
+   - **Harga:** Rp 18.000.000,-
+   - **Penjelasan:** Rangka tempat tidur modern dengan desain minimalis, memberikan sentuhan elegan di kamar tidur Anda.
+   - **Spesifikasi:**
+     - Material: Kayu Oak
+     - Ukuran: King Size, 200cm x 180cm x 35cm
+     - Warna: Natural Oak, Walnut
+   - **Stok:** 15 unit
+
+---
+
+Ini adalah template yang dapat Anda gunakan dan sesuaikan lebih lanjut sesuai kebutuhan bisnis Anda.

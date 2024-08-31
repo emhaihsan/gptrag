@@ -95,15 +95,13 @@ class VectorStore:
         """, (Json(history), session_id))
         self.connection.commit()
 
-    def store_chat_history(self, session_id, chat, ai_answer, chat_embedding, ai_answer_embedding, tokens_used):
+    def store_chat_history(self, session_id, chat, ai_answer, chat_embedding, ai_answer_embedding):
         # Store chat history with embeddings
         self.cursor.execute("""
             INSERT INTO chat_history (chat_session_id, chat, ai_answer, chat_embedding, ai_answer_embedding)
             VALUES (%s, %s, %s, %s, %s)
         """, (session_id, chat, ai_answer, str(chat_embedding), str(ai_answer_embedding)))
         self.connection.commit()
-        # Store token usage for this chat
-        self.store_token_count('chat', tokens_used)
 
     def query_chat_history(self, session_id, embedding, limit=1):
         # Query similar chat history based on embedding

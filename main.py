@@ -2,11 +2,13 @@ import os
 import requests
 from fastapi import FastAPI, UploadFile, File, HTTPException, Query
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel
 from dotenv import load_dotenv
 from vector_store import VectorStore
 import PyPDF2
+import logging
 from datetime import datetime
+
+logging.basicConfig(level=logging.DEBUG)
 
 load_dotenv()
 
@@ -15,8 +17,7 @@ app = FastAPI()
 vector_store = VectorStore()
 vector_store.create_tables()
 
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
-CHATBOT_NAME = os.getenv('CHATBOT_NAME')
+OPENAI_API_KEY = os.getenv('OPEN_AI_API_KEY')
 CHATBOT_PREPROMPT = os.getenv('CHATBOT_PREPROMPT')
 CHUNK_SIZE = int(os.getenv('CHUNK_SIZE', 200))
 OVERLAP_SIZE = int(os.getenv('OVERLAP_SIZE', 20))
@@ -43,7 +44,11 @@ def get_embedding(text):
         "model": "text-embedding-ada-002"
     }
     response = requests.post(url, headers=headers, json=data)
+    if response.status_code != 200:
+        raise Exception(f"OpenAI API error: {response.status_code} - {response.text}")
     response_data = response.json()
+    if 'error' in response_data:
+        raise Exception(f"OpenAI API error: {response_data['error']}")
     tokens_used = response_data['usage']['total_tokens']
     vector_store.store_token_count('embedding', tokens_used)
     return response_data['data'][0]['embedding']
@@ -76,20 +81,46 @@ def chat_with_openai(messages):
     vector_store.store_token_count('prompt', prompt_tokens)
     return response_data['choices'][0]['message']['content']
 
-@app.post("/upload-knowledge")
-async def upload_pdf(file: UploadFile = File(...)):
-    if file.content_type != ['application/pdf','text/plain']:
-        raise HTTPException(status_code=400, detail="Invalid file type")
-    content = await file.read()
-    if file.content_type == 'application/pdf':
-        text = extract_text_from_pdf(content)
-    else:
-        text = content.decode('utf-8')
-    chunks = split_text_into_chunks(text, CHUNK_SIZE, OVERLAP_SIZE)
-    for chunk in chunks:
-        embedding = get_embedding(chunk)
-        vector_store.store_embedding(chunk, embedding)
-    return {"message": "Knowledge uploaded successfully"}
+
+
+@app.post("/upload-knowledge/")
+async def upload_knowledge(file: UploadFile = File(...)):
+    print(OPENAI_API_KEY)
+    try:
+        if file.content_type not in ["application/pdf", "text/plain"]:
+            raise HTTPException(status_code=400, detail="Invalid file type")
+        
+        content = await file.read()
+        logging.debug(f"File content type: {file.content_type}")
+        logging.debug(f"File size: {len(content)} bytes")
+        
+        if file.content_type == "application/pdf":
+            with open("temp.pdf", "wb") as temp_file:
+                temp_file.write(content)
+            text = extract_text_from_pdf("temp.pdf")
+            os.remove("temp.pdf")
+        else:
+            text = content.decode("utf-8")
+        
+        logging.debug(f"Extracted text length: {len(text)} characters")
+        
+        chunks = split_text_into_chunks(text, CHUNK_SIZE, OVERLAP_SIZE)
+        logging.debug(f"Number of chunks: {len(chunks)}")
+        
+        for i, chunk in enumerate(chunks):
+            logging.debug(f"Processing chunk {i+1}/{len(chunks)}")
+            try:
+                embedding = get_embedding(chunk)
+                tokens_used = len(chunk.split())
+                vector_store.store_embedding(embedding, chunk, tokens_used)
+            except Exception as e:
+                logging.error(f"Error processing chunk {i+1}: {str(e)}")
+                raise
+        
+        return {"message": "Knowledge uploaded and split into chunks successfully"}
+    except Exception as e:
+        logging.exception(f"Error in upload_knowledge: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))
 
 @app.post("/newchat/")
 async def newchat():
@@ -101,16 +132,16 @@ async def newchat():
 
 @app.post("/chat/")
 async def chat_with_session(session_id: int, text: str):
-    session_history = vector_store.get_session_history(session_id)
+    session_history = vector_store.get_session(session_id)
     chat_embedding = get_embedding(text)
 
     # Retrieve relevant knowledge
-    knowledge = vector_store.query_similar(chat_embedding, top_k=TOP_K)
-    knowledge_texts = [item['text'] for item in knowledge]
+    knowledge = vector_store.query_similar(chat_embedding, limit=TOP_K)
+    knowledge_texts = [item[0] for item in knowledge]
 
     # Retreive top-k relevant chat hisotry within the session
     previous_chats = vector_store.query_chat_history(session_id, chat_embedding, limit=TOP_K_HISTORY)
-    previous_chats_texts = [f"User: {item['text']}\nChatbot: {item['response']}\n" for item in previous_chats]
+    previous_chats_texts = [f"User: {item[0]}\nChatbot: {item[1]}\n" for item in previous_chats]
 
     # Combine knowledge and previous chat history
     combined_context = "\n".join(previous_chats_texts + knowledge_texts)
@@ -121,9 +152,6 @@ async def chat_with_session(session_id: int, text: str):
     session_history.append({"role": "user", "content": text})
     response_content = chat_with_openai(session_history)
     ai_answer_embedding = get_embedding(response_content)
-
-    vector_store.store_chat_history(session_id, text, response_content, chat_embedding, ai_answer_embedding)
-
     vector_store.store_chat_history(session_id, text, response_content, chat_embedding, ai_answer_embedding)
 
     return JSONResponse(content={"response": response_content, "knowledge": knowledge_texts, "previous_chats": previous_chats_texts})
@@ -134,7 +162,7 @@ async def token_usage(
     start_date: datetime = Query(..., description="Start date in the format YYYY-MM-DDTHH:MM:SS"),
     end_date: datetime = Query(..., description="End date in the format YYYY-MM-DDTHH:MM:SS"),
 ):
-    if token_type not in ['embedding_input', 'completion_input', 'completion_output']:
+    if token_type not in ['embedding_input', 'completion', 'prompt']:
         raise HTTPException(status_code=400, detail="Invalid token type")
-    tokens_used = vector_store.get_token_usage(token_type, start_date, end_date)
+    tokens_used = vector_store.query_token_usage(token_type, start_date, end_date)
     return {"token_type": token_type, "tokens_used": tokens_used, "start_date": start_date, "end_date": end_date}
