@@ -21,8 +21,8 @@ This project implements a Retrieval-Augmented Generation (RAG) based chatbot wit
 1. Clone the repository:
 
    ```
-   git clone <repository-url>
-   cd <project-directory>
+   git clone https://github.com/emhaihsan/gptrag.git
+   cd gptrag
    ```
 
 2. Install required packages:
